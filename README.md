@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, Yo soy Juan Ignacio Mc Kenna</h1>
-<h3 align="center">Estudiante de programación web. Iniciando mi camino en la progresión.</h3>
+<h3 align="center">Estudiante de programación web. Iniciando mi camino en la programación.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=juanituza&label=Profile%20views&color=0e75b6&style=flat" alt=" juanituza" /> </p>
 
