@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Files -->
+  <link href="estilos/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="estilos/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="estilos/estilos.css" reel="stylesheet" />
+
+  <!--fontawesome Files -->
+  <link href="estilos/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css" />
+  <link href="estilos/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+  <link href="estilos/img/Balans.jpg" rel="icon" />
+  <title>Balanse</title>
+</head>
+
+<body>
+  <div class="container py-3">
+    
+      <div id="valores"></div>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="card-body shadow">
+      <div class="col-12 py-3 text-center">
+        <h1>
+          <span style="color: rgb(192, 53, 157); font-size: 35px">B</span>a<span
+            style="color: rgb(192, 53, 157); font-size: 35px">L</span>an<span
+            style="color: rgb(192, 53, 157); font-size: 35px">S</span>
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form id="formulario" class="formulario needs-validation" novalidate action="">
+            <div class="col-6 formulario__grupo" id="nombre1">
+              <label for="nombre" class="mx-5 form-label">Nombre:</label>
+              <div class="formulario__grupo-input">
+
+                <input
+                type="text"
+                class="form-control shadow mx-5 mb-3 formulario__input"
+                name="nombre"
+                id="nombre"
+                value=""
+                placeholder="Nombre"
+                />
+                
+              </div>
+            </div>
+            <div class="col-6 ">
+              <label for="apellido" class="mx-5">Apellido:</label>
+              <input
+                type="text"
+                class="form-control shadow mx-5 mb-3"
+                name="apellido"
+                id="apellido"
+                placeholder="Apellido"
+              />
+            </div>
+            <div class="col-6">
+     
+               <label for="clase" class="mx-5 form-label">Clase:</label>
+              <input
+                type="text"
+                class="form-control shadow mx-5 "
+                name="clase"
+                id="clase"
+                required
+                placeholder="Pilates/Yoga/Danzas"
+                
+              />
+              
+            </div>
+            <div class="col-12">
+              <input
+                type="submit"
+                class="btn btn-primary shadow col-6 mx-5 m-5"
+                name="añadir"
+                id="añadir"
+                value="Añadir"
+              />
+            </div>
+          </form>
+        </div>
+      <div class="row mx-5" id="alumnos">
+        <div class=" col-4 card m-4  shadow" style="width: 18rem; " >
+          <div class="card-body" id="Pilates"></div>
+        </div>
+        <div class="col-4 card   m-4  shadow" style="width: 18rem; " >
+          <div class="card-body" id="Yoga"></div>
+        </div>
+        <div class="col-4 card m-4  shadow" style="width: 18rem; " >
+          <div class="card-body" id="Danzas"></div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col-10 mx-5" id="div">
+
+
+
+  </div>
+  
+
+  <script src="js/persona.js"></script>
+  <script src="js/socio.js"></script>
+  <script src="js/clase.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
