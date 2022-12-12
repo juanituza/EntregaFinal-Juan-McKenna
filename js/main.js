@@ -75,9 +75,9 @@ form.addEventListener("submit", (e) => {
 // utilizo la funcion del alumno ingresado para luego mostrarlos en pantalla
 alumnoIngresado();
 
-// ----------------------------------PILATES---------------------------
+/*  ----------------------------------PILATES--------------------------- */
 //Parseo las clases guardadas
-let claseGuardado = JSON.parse(localStorage.getItem("clases"));
+let claseGuardado = JSON.parse(localStorage.getItem("clases")) || [];
 //Filtro las clases Pilates para trear sus datos
 let clasePilates = claseGuardado.filter((el) => el._nombre.includes("Pilates"));
 // Muestro en pantalla la clase "Pilates"
@@ -94,7 +94,7 @@ clasePilates.forEach((element) => {
   contenedorPilates.append(item);
 });
 
-//Traigo los alumnos que ingresaron pilates en el form y los muestro en pantalla
+//Traigo los alumnos que ingresaron en el form y los muestro en pantalla
 let alumnoGuardado = JSON.parse(localStorage.getItem("Socio"));
 // Filtro los alumnos que ingresaron por Pilates
 let pilates = alumnoGuardado.filter((el) => el._actividad.includes("Pilates"));
@@ -114,7 +114,7 @@ pilates.forEach((element) => {
   contenedorP.append(item);
 });
 
-// ---------------------------YOGA---------------------------
+/* ---------------------------YOGA--------------------------- */
 
 //Filtro las clases Yoga para trear sus datos
 let claseYoga = claseGuardado.filter((el) => el._nombre.includes("Yoga"));
@@ -148,7 +148,7 @@ yoga.forEach((element) => {
   contenedorY.append(item);
 });
 
-//-----------------------------DANZAS------------------------------------
+/* -----------------------------DANZAS------------------------------------ */
 
 //Filtro las clases danzas para trear sus datos
 let claseDanzas = claseGuardado.filter((el) => el._nombre.includes("Danzas"));
