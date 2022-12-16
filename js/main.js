@@ -53,8 +53,7 @@ form.addEventListener("submit", (e) => {
 
   // Condicional para que el usuario ingrese bien la clase
   if (clase === "Pilates" || clase === "Yoga" || clase === "Danzas") {
-    const capturarForm = Object.fromEntries(new FormData(event.target));
-    console.log(capturarForm);
+    const capturarForm = Object.fromEntries(new FormData(event.target));  
     datosStorage(capturarForm);
 
     Swal.fire({
