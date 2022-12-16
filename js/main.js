@@ -50,8 +50,7 @@ let form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   let clase = document.getElementById("clase").value;
-  let  claseCapital = clase;
-  console.log(claseCapital);
+
   // Condicional para que el usuario ingrese bien la clase
   if (clase === "Pilates" || clase === "Yoga" || clase === "Danzas") {
     const capturarForm = Object.fromEntries(new FormData(event.target));
