@@ -83,7 +83,7 @@ let contenedorPilates = document.getElementById("Pilates");
 clasePilates.forEach((element) => {
   let item = document.createElement("ul");
   item.innerHTML += `
-          <h5 class="card-title">Pilates</h5>
+          <h5 class="card-title">${element._nombre}</h5>
           <p class="card-text">Cuota: $${element._cuota}</p>
           <p>Profesor : ${element._entrenadores} </p>
           <hr/>
@@ -121,7 +121,7 @@ let contenedorYoga = document.getElementById("Yoga");
 claseYoga.forEach((element) => {
   let item = document.createElement("ul");
   item.innerHTML += `
-          <h5 class="card-title">Yoga</h5>
+          <h5 class="card-title">${element._nombre}</h5>
           <p class="card-text">Cuota: $${element._cuota}</p>
           <p>Profesor : ${element._entrenadores} </p>
           <hr/>
@@ -156,7 +156,7 @@ let contenedorDanzas = document.getElementById("Danzas");
 claseDanzas.forEach((element) => {
   let item = document.createElement("ul");
   item.innerHTML += `
-          <h5 class="card-title">Danzas</h5>
+          <h5 class="card-title">${element._nombre}</h5>
           <p class="card-text">Cuota: $${element._cuota}</p>
           <p>Profesor : ${element._entrenadores} </p>
           <hr/>

@@ -1,7 +1,7 @@
 [
-    {"clase": "Pilates", "cuota" :1000 ,"Entrenadores":"Gabriela Fernandez" },  
-    {"clase": "Yoga", "cuota" :1000, "Entrenadores":"Luciana Ghio"   },  
-    {"clase": "Danzas", "cuota" :1000 , "Entrenadores":"Soledad Perez"  }
+    {"clase": "Pilates", "cuota" :1500 ,"Entrenadores":"Gabriela Fernandez" },  
+    {"clase": "Yoga", "cuota" :1200, "Entrenadores":"Luciana Ghio"   },  
+    {"clase": "Danzas", "cuota" :900 , "Entrenadores":"Soledad Perez"  }
      
 ]
 
